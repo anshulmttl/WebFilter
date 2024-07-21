@@ -1,10 +1,1 @@
-URL Filtering stops certain URLs to load on company network.
 
-Customer PC software:
-- Write a C++ QT based application while performs following actions.
-- Listens to URLs being browsed by browsers.
-- If the URL is malicious in local database block the URL.
-- If URL is allowed in local database (added to exclusions) then proceed with URL.
-- Two types of local databases (for individual computers local database on 127.0.0.1) or for (companies a network database on their WAN / LAN with dedicated IP).
-- A form containing recent URLs visited by customer (these are not yet stored in database and instead local cache of computer).
- The form allows user to report URLs as malicious due to various reasons.
